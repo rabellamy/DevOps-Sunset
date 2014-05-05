@@ -14,11 +14,11 @@
 // Override theme settings (see ../template/settings.scss)
 $mainFont: 'Open Sans', sans-serif;
 $mainColor: #333;
-$headingFont: 'Quicksand', sans-serif;
+$headingFont: 'Open Sans', sans-serif;
 $headingColor: #333;
 $headingLetterSpacing: -0.08em;
 $headingTextShadow: none;
-$backgroundColor: #f7fbfc;
+$backgroundColor: #285E88;
 $linkColor: #3b759e;
 $linkColorHover: lighten( $linkColor, 20% );
 $selectionBackgroundColor: #134674;
@@ -30,7 +30,7 @@ $selectionBackgroundColor: #134674;
 
 // Background generator
 @mixin bodyBackground() {
-  @include radial-gradient( #add9e4, #f7fbfc );
+  @include radial-gradient(lighten($backgroundColor, 30%), #f7fbfc );
 }
 
 
@@ -38,3 +38,15 @@ $selectionBackgroundColor: #134674;
 // Theme template ------------------------------
 @import "../template/theme";
 // ---------------------------------------------
+
+.quick-facts {
+  h2 {
+    font-size: 3.11em;
+  }
+}
+
+.organizing-team {
+  h2 {
+    margin-bottom: .8em;
+  }
+}
