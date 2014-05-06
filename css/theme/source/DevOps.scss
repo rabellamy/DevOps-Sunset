@@ -39,7 +39,13 @@ $selectionBackgroundColor: #134674;
 @import "../template/theme";
 // ---------------------------------------------
 
-.quick-facts {
+.nyc-eyes {
+  img {
+    width: 325px;
+  }
+}
+
+.overview {
   h2 {
     font-size: 3.11em;
   }
