@@ -128,6 +128,10 @@ body {
 .reveal .slide-number {
   color: #3b759e; }
 
+.un-nyc-skyline img {
+  position: relative;
+  top: -6em; }
+
 .nyc-eyes img {
   width: 325px; }
 
@@ -136,3 +140,6 @@ body {
 
 .organizing-team h2 {
   margin-bottom: .8em; }
+
+.un-nyc-skyline h2 {
+  color: white; }

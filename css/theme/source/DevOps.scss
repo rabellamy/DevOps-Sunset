@@ -39,6 +39,13 @@ $selectionBackgroundColor: #134674;
 @import "../template/theme";
 // ---------------------------------------------
 
+.un-nyc-skyline {
+  img {
+    position: relative;
+    top: -6em;
+  }
+}
+
 .nyc-eyes {
   img {
     width: 325px;
@@ -54,5 +61,11 @@ $selectionBackgroundColor: #134674;
 .organizing-team {
   h2 {
     margin-bottom: .8em;
+  }
+}
+
+.un-nyc-skyline {
+  h2 {
+    color: white;
   }
 }
