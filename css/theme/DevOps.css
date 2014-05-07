@@ -133,6 +133,9 @@ body {
 .overview h2 {
   font-size: q3 0.11em; }
 
+section.jenkins.present img {
+  max-height: 60%; }
+
 .organizing-team h2 {
   margin-bottom: .8em; }
 
